@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/rg_type">
+
+    <RadioButton android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/rb_cost"
+
+        android:text="支出"
+        android:layout_weight="1"/>
+
+    <RadioButton
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/rb_income"
+        android:text="收入" android:layout_weight="1"/>
+
+</RadioGroup>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/et_cost_title" android:hint="标题" android:layout_margin="4dp"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/et_cost_money" android:hint="钱数" android:layout_margin="4dp"/>
+
+    <DatePicker android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/dp_d_date" android:layout_margin="4dp" android:calendarViewShown="false" android:datePickerMode="spinner"/>
+
+</LinearLayout>

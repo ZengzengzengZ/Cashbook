@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout tools:context=".Find" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="60dp" android:layout_width="match_parent" android:textSize="30sp" android:text="查询" android:gravity="center" android:layout_weight="1" android:id="@+id/tv_find"/>
+
+    <TextView android:layout_height="20dp" android:layout_width="match_parent" android:layout_weight="1" android:id="@+id/blank1"/>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="80dp" android:layout_width="match_parent" android:layout_weight="1">
+
+    <EditText android:layout_height="match_parent" android:layout_width="wrap_content" android:layout_weight="1" android:id="@+id/et_find" android:inputType="textPersonName" android:ems="10"/>
+
+    <Button android:layout_height="match_parent" android:layout_width="wrap_content" android:text="搜索" android:layout_weight="1" android:id="@+id/btn_search"/>
+
+</LinearLayout>
+
+
+    -<RadioGroup android:orientation="horizontal" android:layout_height="50dp" android:layout_width="match_parent" android:layout_weight="1" android:id="@+id/rg_find">
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="按标题" android:layout_weight="1" android:id="@+id/rb_title"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="按类型" android:layout_weight="1" android:id="@+id/rb_type"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="按日期" android:layout_weight="1" android:id="@+id/rb_date"/>
+
+</RadioGroup>
+
+    <ListView android:layout_height="300dp" android:layout_width="match_parent" android:layout_weight="5" android:id="@+id/lv_find"/>
+
+    <Button android:layout_height="30dp" android:layout_width="match_parent" android:text="返回" android:layout_weight="1" android:id="@+id/btn_back"/>
+
+</LinearLayout>

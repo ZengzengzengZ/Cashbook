@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout tools:context=".MainActivity" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="20dp" android:layout_width="match_parent" android:layout_weight="2">
+
+    <Button android:layout_height="match_parent" android:layout_width="wrap_content" android:layout_weight="1" android:text="添加" android:id="@+id/btn_add"/>
+
+    <Button android:layout_height="match_parent" android:layout_width="wrap_content" android:layout_weight="1" android:text="查询" android:id="@+id/btn_find"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:orientation="vertical" android:layout_height="100dp" android:layout_width="match_parent" android:layout_weight="30" android:id="@+id/bill_list">
+
+    <ListView android:layout_height="match_parent" android:layout_width="match_parent" android:layout_weight="10" android:id="@+id/bills_list"/>
+
+    <TextView android:layout_height="50dp" android:layout_width="match_parent" android:layout_weight="2" android:id="@+id/tv_sum"/>
+
+</LinearLayout>
+
+</LinearLayout>
